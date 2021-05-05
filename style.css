@@ -6,7 +6,7 @@ body {
 	background-color: #cccccc;
 	background-image: linear-gradient(rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)), 
 		url("img/background.png");
-	font-family: sans-serif;
+	font-family: Courier;
 }
 
 .background-img {
@@ -18,6 +18,12 @@ body {
 	display: flex;
 	justify-content: center;
 	margin: 6px 0 16px 0;
+	background-image: linear-gradient(45deg, #08efff, #ea00ff);
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+ 	-moz-background-clip: text;
+ 	-moz-text-fill-color: transparent;
 }
 
 
@@ -82,16 +88,33 @@ body {
 
 .win-modal-content {
 	background: white;
-	border: 2px solid black;
+	border: 5px solid black;
 	font-size: 40px;
 	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	background-image: linear-gradient(to left, #76adff, #41b9ff, #7ef1fc, #cffcea, #f8b9b9)
+
 }
 
 .reset-btn {
 	margin-top: 10px;
 }
 
+.flips {
+	font-weight: bold;
+	color: rgb(13, 39, 110);
+	}
+
+.flip {
+	font-weight: bold;
+	/* margin-left: 600px; */
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: rgb(13, 39, 110);
+	display: flex;
+	justify-content: center;
+	margin: 6px 0 16px 0;
+}
